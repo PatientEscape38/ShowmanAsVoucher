@@ -17,3 +17,10 @@ for _, file in ipairs(load_src) do
 end
 
 --#endregion
+
+--#region Disables the Joker: Showman
+
+local id = 'j_ring_master'
+G.P_CENTERS[id].set = "Disabled"
+
+--#endregion
