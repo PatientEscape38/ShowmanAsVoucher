@@ -1,0 +1,9 @@
+{
+    "id": "ShowmanAsVoucher",
+    "name": "Shadow Showman",
+    "author": ["PatientEscape38"],
+    "description": "Replaces the Showman Joker with a Showman Voucher called 'Shadow Showman'",
+    "prefix": "patient",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+}
