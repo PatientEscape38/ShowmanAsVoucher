@@ -1,5 +1,5 @@
 
---#region Joker File Loading
+--#region Voucher File Loading
 
 local folder_name = 'vouchers'
 local src = SMODS.NFS.getDirectoryItems(SMODS.current_mod.path .. "src/" .. folder_name)
