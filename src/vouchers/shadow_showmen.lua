@@ -27,7 +27,9 @@ end
 SMODS.Joker:take_ownership('j_ring_master', {
     in_pool = function()
         return not(
-            G.GAME and G.GAME.used_vouchers['v_shdw_shmn_shadow_showmen']
+            G.GAME and 
+            G.GAME.used_vouchers and 
+            G.GAME.used_vouchers['v_shdw_shmn_shadow_showmen']
         )
     end,
 }, true)
